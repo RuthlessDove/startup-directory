@@ -1,9 +1,12 @@
-import Navbar from "@/components/Navbar";
+// Sections
+import Hero from "@/sections/Hero";
+import Banner from "@/sections/Banner";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Banner />
+      <Hero />
     </>
   );
 }
