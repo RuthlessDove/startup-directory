@@ -14,8 +14,8 @@ export default {
         lg: "1200px",
       },
       fontFamily: {
-        main: "var(--font-content)",
-        head: "var(--font-head)",
+        body: "var(--font-content)",
+        display: "var(--font-head)",
       },
       colors: {
         background: "var(--background)",
