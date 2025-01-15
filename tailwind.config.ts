@@ -14,13 +14,10 @@ export default {
         lg: "1200px",
       },
       fontFamily: {
-        body: "var(--font-content)",
-        display: "var(--font-head)",
+        body: ["Inter", "serif"],
+        display: ["DM Sans", "serif"],
       },
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+
     },
   },
   plugins: [],
