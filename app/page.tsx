@@ -4,6 +4,7 @@ import Banner from "@/sections/Banner";
 import Features from "@/sections/Features";
 import Demo from "@/sections/Demo";
 import Faqs from "@/sections/Faqs";
+import Attribute from "@/sections/Attribute";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Features />
       <Demo />
       <Faqs />
+      <Attribute />
     </>
   );
 }

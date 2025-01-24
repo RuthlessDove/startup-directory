@@ -18,7 +18,7 @@ const Features = () => {
         </p>
       </div>
 
-      <div className="pb-24">
+      <div className="mb-24">
         <FeatureBox />
       </div>
     </div>

@@ -7,7 +7,7 @@ import demo from "@/assets/images/App Night.png";
 
 const Demo = () => {
   return (
-    <div className="text-white font-body">
+    <div className="text-white font-body mb-24">
       <div className="flex flex-col justify-center mx-80 pb-14">
         <h1 className="font-display font-bold text-center text-4xl pt-20 pb-10 tracking-tighter	">
           Intuitive interface
