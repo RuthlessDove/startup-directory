@@ -11,7 +11,7 @@ const Features = () => {
         <h1 className="font-display font-bold text-center text-4xl pt-20 pb-10 tracking-tighter	">
           Everything you need
         </h1>
-        <p className="font-body text-m text-center font-normal pb-3">
+        <p className="font-body text-m text-center font-normal pb-3 lg:px-44">
           Showcase your ideas, engage with your audience, and track feedback
           seamlessly. Share updates, build in public, and watch your startup
           grow with ease.

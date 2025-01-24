@@ -12,9 +12,9 @@ import message from "@/assets/images/Message.png";
 const Hero = () => {
   return (
     <div className="font-body text-white pb-52 bg-[linear-gradient(to_bottom,_#000,_#200D42_34%,#4F21A1_65%,_#A46EDB_100%)]">
-      <div className="relative">
+      <div className="">
         <Navbar />
-        <h1 className="text-9xl font-display font-semibold tracking-tight leading-[105px] text-center pt-24">
+        <h1 className="text-9xl font-display font-semibold tracking-tight leading-[105px] text-center pt-24 relative">
           Showcase <br />
           your startup <br />
           idea
