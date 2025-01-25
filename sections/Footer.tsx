@@ -5,8 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="relative z-0 overflow-x-clip pt-32 text-white/40 font-body">
-      
+    <footer className="relative z-0 overflow-x-clip pt-48 text-white/40 font-body">
       <div
         className="absolute h-[400px] w-[1600px] bottom-0 left-1/2 -translate-x-1/2 bg-[#A46EDB]/30 -z-30"
         style={{
