@@ -2,7 +2,6 @@
 import React from "react";
 
 // Components
-import Attribute from "@/sections/Attribute";
 
 const Footer = () => {
   return (
