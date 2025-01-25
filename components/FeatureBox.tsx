@@ -36,7 +36,7 @@ const featureDesc = [
 
 const FeatureBox = () => {
   return (
-    <div className="flex flex-row gap-4 justify-center">
+    <div className="flex flex-col lg:flex-row items-center justify-center gap-4 ">
       {featureDesc.map((feature) => {
         return (
           <div

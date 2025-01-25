@@ -14,21 +14,21 @@ const Hero = () => {
     <div className="font-body text-white pb-52 bg-[linear-gradient(to_bottom,_#000,_#200D42_34%,#4F21A1_65%,_#A46EDB_100%)]">
       <div className="">
         <Navbar />
-        <h1 className="text-9xl font-display font-semibold tracking-tight leading-[105px] text-center pt-24 relative">
-          Showcase <br />
-          your startup <br />
+        <h1 className="lg:text-9xl md:text-8xl sm:text-5xl text-4xl font-display font-semibold tracking-tight md:leading-[105px] text-center pt-24 relative sm:px-14 md:px-32 px-64 lg:px-80">
+          Showcase 
+          your startup 
           idea
         </h1>
-        <div className="absolute top-[16.5rem] left-[7.5rem]">
+        {/* <div className="absolute top-[16.5rem] left-[7.5rem]">
           <Image src={cursor} alt="Computer Cursor" />
         </div>
         <div className="absolute top-[9.5rem] right-[6.5rem]">
           <Image src={message} alt="Purple Message Icon" />
-        </div>
+        </div> */}
       </div>
 
       <div className="flex flex-col items-center justify-center pt-6">
-        <p className="text-center w-[34rem]">
+        <p className="text-center px-24 md:px-32 lg:px-96">
           Transform your vision into reality with a platform built to ignite
           creativity, foster collaboration, and bring ground-breaking ideas to
           life.
