@@ -10,7 +10,7 @@ import {
 
 const Faqs = () => {
   return (
-    <div className="container">
+    <div className="container" id="FAQs">
       <div className="text-white font-body flex flex-col justify-center mb-24">
         <h1 className="text-4xl font-display text-center font-bold mb-8 tracking-tighter">
           Frequently asked questions

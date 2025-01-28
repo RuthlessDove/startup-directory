@@ -6,7 +6,7 @@ import FeatureBox from "@/components/FeatureBox";
 
 const Features = () => {
   return (
-    <div className="text-white container">
+    <div className="text-white container" id="Features">
       <div className="flex flex-col justify-center md:mx-40 pb-14">
         <h1 className="font-display font-bold text-center text-4xl pt-20 pb-10 tracking-tighter	">
           Everything you need
