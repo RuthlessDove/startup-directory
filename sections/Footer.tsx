@@ -14,7 +14,7 @@ const Footer = () => {
         }}
       ></div>
       <div className="container"><hr className="opacity-[8%]" /></div>
-      <div className="flex py-4 px-14 container justify-between">
+      <div className="flex flex-col md:flex-row py-4 px-14 container justify-between">
         <div>
           <p className="text-center ">
             &#169; 2024 Launchpad by{" "}
