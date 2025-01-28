@@ -7,7 +7,7 @@ import demo from "@/assets/images/App Night.png";
 
 const Demo = () => {
   return (
-    <div>
+    <div className="relative">
       <div
         className="absolute h-full w-full  left-1/2 -translate-x-1/2  -z-30"
         style={{
