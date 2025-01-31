@@ -9,12 +9,14 @@ import Footer from "@/sections/Footer";
 export default function Home() {
   return (
     <>
-      <Banner />
-      <Hero />
-      <Features />
-      <Demo />
-      <Faqs />
-      <Footer />
+      <div className="bg-stone-950">
+        <Banner />
+        <Hero />
+        <Features />
+        <Demo />
+        <Faqs />
+        <Footer />
+      </div>
     </>
   );
 }

@@ -8,7 +8,6 @@ export const metadata: Metadata = {
     "Explore a curated list of innovative startups across various industries. Discover emerging businesses, founders, and cutting-edge solutions.",
 };
 
-
 export default function DirectoryLayout({
   children,
 }: {
