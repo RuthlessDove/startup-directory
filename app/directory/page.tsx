@@ -5,6 +5,7 @@ import React from "react";
 import Hero from "./sections/Hero";
 import NewStartups from "./sections/NewStartups";
 import MoreStartupsCard from "./sections/MoreStartupsCard";
+import Footer from "./sections/Footer";
 import { HiSpeakerphone } from "react-icons/hi";
 
 const Directory = () => {
@@ -20,7 +21,7 @@ const Directory = () => {
 
       <div className="flex justify-between items-center mt-8 mb-3">
         <div className="flex items-center gap-2">
-          <div className="h-4 w-2 bg-[#4F21A177] border rounded-full"></div>
+          <div className="h-6 w-2 bg-custom-purple border rounded-full"></div>
           <h1 className="font-display font-bold text-2xl">More Startups</h1>
         </div>
         <div>
@@ -38,10 +39,12 @@ const Directory = () => {
         <MoreStartupsCard />
       </div>
 
-      <div className="inline-flex items-center gap-2 mt-9 bg-[#4F21A177] p-3 rounded-full right-0 absolute -translate-x-1/8">
-        <HiSpeakerphone />
+      <div className="inline-flex items-center gap-2 mt-9 bg-custom-purple p-3 rounded-full right-0 absolute -translate-x-1/8 text-white font-semibold">
+        <HiSpeakerphone color="white" />
         <p>Report A Bug</p>
       </div>
+
+      <Footer />
     </div>
   );
 };

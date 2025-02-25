@@ -1,0 +1,95 @@
+// Dependencies
+import React from "react";
+import Image from "next/image";
+
+// Assets
+import lavenderBg from "@/assets/images/lavender-bg.jpg";
+import logo from "@/assets/icons/logo.svg";
+import { FcGoogle } from "react-icons/fc";
+
+const Login = () => {
+  return (
+    <div className="grid grid-cols-6 h-screen">
+      {/* Left Section (Form) */}
+      <div className="col-span-3 mx-auto max-w-md flex flex-col justify-center gap-8 relative ">
+        <div className="flex flex-col justify-center items-center gap-3 px-14 py-3">
+          <Image src={logo} alt="Logo" className="h-12 w-12" />
+          <span className="font-semibold text-4xl text-center font-display ">
+            Get Started Now
+          </span>
+        </div>
+        <form className="flex flex-col gap-4 font-semibold">
+          <div className="form-input">
+            <label htmlFor="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter your username"
+              className="form-input-outline"
+            />
+          </div>
+          <div className="form-input">
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              className="form-input-outline"
+            />
+          </div>
+          <div className="form-input">
+            <label htmlFor="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              className="form-input-outline"
+            />
+          </div>
+          <button
+            type="submit"
+            className="rounded-full bg-custom-purple py-2 text-white"
+          >
+            Login
+          </button>
+        </form>
+
+        <div className="flex items-center gap-4 w-full">
+          <hr className="flex-grow border-t border-gray-300" />
+          <p className="text-gray-500">Or</p>
+          <hr className="flex-grow border-t border-gray-300" />
+        </div>
+
+        <div className="form-input-outline flex gap-2 items-center px-5">
+          <FcGoogle />
+          Sign in with Google
+        </div>
+
+        <p className="text-center">
+          Have an account?{" "}
+          <span>
+            <a href="/signup" className="text-custom-purple font-semibold">
+              Sign in
+            </a>
+          </span>
+        </p>
+      </div>
+
+      {/* Right Section (Image) */}
+      <div className="col-span-3 relative h-full">
+        <Image
+          src={lavenderBg}
+          alt="Lavender Abstract Image"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-l-3xl"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Login;

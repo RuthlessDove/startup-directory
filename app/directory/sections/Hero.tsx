@@ -21,7 +21,7 @@ const Hero = () => {
               <p className="text-[#878E98]">
                 Enter product, categories, service name...
               </p>
-              <div className="bg-[#4F21A177] py-4 px-8 rounded-2xl inline-flex text-[#0B0D14] font-medium">
+              <div className="bg-custom-purple py-4 px-8 rounded-2xl inline-flex text-[#0B0D14] font-medium">
                 <p>Search</p>
               </div>
             </div>
