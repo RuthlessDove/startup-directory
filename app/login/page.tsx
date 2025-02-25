@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 // Assets
-import lavenderBg from "@/assets/images/lavender-bg.jpg";
+import lavenderBg from "@/assets/images/purple-lines-bg.jpg";
 import logo from "@/assets/icons/logo.svg";
 import { FcGoogle } from "react-icons/fc";
 
