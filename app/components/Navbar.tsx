@@ -8,9 +8,9 @@ import logo from "@/assets/icons/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center font-display">
+    <nav className="flex justify-between items-center font-display px-10 pt-7">
       <div>
-        <ul className="flex gap-8 items-center">
+        <ul className="flex gap-8 items-center font-semibold">
           <li className="mr-1 flex gap-1 items-center font-bold text-lg">
             <Image
               src={logo}
@@ -21,6 +21,9 @@ const Navbar = () => {
             />
             Launchpad
           </li>
+          <a href="/directory">
+            <li className="flex gap-2 items-center">Explore</li>
+          </a>
           <li className="flex gap-2 items-center">
             Categories{" "}
             <span>

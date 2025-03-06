@@ -2,12 +2,10 @@ import type { Metadata } from "next";
 import "../globals.css";
 import Navbar from "../components/Navbar";
 
-// !!!! Edit the profile metadata to include the startup name
-
 export const metadata: Metadata = {
-  title: "Profile Page",
+  title: "Startup Directory",
   description:
-    "View the profile for startup name. Discover more about the startup, the founders, and the solutions they provide.",
+    "Explore a curated list of innovative startups across various industries. Discover emerging businesses, founders, and cutting-edge solutions.",
 };
 
 export default function DirectoryLayout({
@@ -18,7 +16,7 @@ export default function DirectoryLayout({
   return (
     <div>
       <Navbar />
-      <div className="bg-white h-full px-10 py-7">{children}</div>
+      <div className="bg-white h-full px-10 pb-7">{children}</div>
     </div>
   );
 }
