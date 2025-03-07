@@ -11,11 +11,12 @@ const Login = () => {
   return (
     <div className="grid grid-cols-6 h-screen">
       {/* Left Section (Form) */}
-      <div className="col-span-3 mx-auto max-w-md flex flex-col justify-center gap-8 relative ">
-        <div className="flex flex-col justify-center items-center gap-3 px-14 py-3">
+      <div className="col-span-3 mx-auto max-w-md flex flex-col justify-center gap-8 relative mb-16">
+        <div className="flex flex-col justify-center items-center gap-3 pt-14">
           <Image src={logo} alt="Logo" className="h-12 w-12" />
           <span className="font-semibold text-4xl text-center font-display ">
-            Get Started Now
+          Log in & Share Your Startup Journey
+          {/* Your Startup, Your Story – Sign In */}
           </span>
         </div>
         <form className="flex flex-col gap-4 font-semibold">
@@ -69,10 +70,10 @@ const Login = () => {
         </div>
 
         <p className="text-center">
-          Have an account?{" "}
+          Don't have an account?{" "}
           <span>
             <a href="/signup" className="text-custom-purple font-semibold">
-              Sign in
+              Sign up
             </a>
           </span>
         </p>

@@ -15,7 +15,8 @@ const Signup = () => {
         <div className="flex flex-col justify-center items-center gap-3 px-14 py-3">
           <Image src={logo} alt="Logo" className="h-12 w-12" />
           <span className="font-semibold text-4xl text-center font-display ">
-            Get Started Now
+          Join the Community of Builders & Innovators
+            {/* Get Started Now */}
           </span>
         </div>
 
@@ -98,7 +99,7 @@ const Signup = () => {
               type="submit"
               className="rounded-full bg-custom-purple py-2 px-6 text-white"
             >
-              Signup
+              Sign Up
             </button>
           </div>
         </form>
@@ -111,14 +112,14 @@ const Signup = () => {
 
         <div className="form-input-outline flex gap-2 items-center px-5">
           <FcGoogle />
-          Sign in with Google
+          Sign up with Google
         </div>
 
         <p className="text-center">
           Have an account?{" "}
           <span>
-            <a href="/signup" className="text-custom-purple font-semibold">
-              Sign in
+            <a href="/login" className="text-custom-purple font-semibold">
+              Log in
             </a>
           </span>
         </p>
