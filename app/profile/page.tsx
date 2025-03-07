@@ -4,10 +4,12 @@ import Image from "next/image";
 
 // Components
 import Navbar from "@/app/components/Navbar";
+import UpdateEntry from "./components/UpdateEntry";
 
 // Assets
 import background from "@/assets/images/blue-abstract.jpg";
 import profilePic from "@/assets/images/blank-profile-picture.webp";
+import arrow from "@/assets/icons/boomerang-arrow.svg";
 
 const Profile = () => {
   return (
@@ -80,14 +82,14 @@ const Profile = () => {
         </div>
       </div>
 
-      <div>
-        <h2 className="font-display font-bold text-3xl mb-4 mt-10">Updates</h2>
-        <div className="flex gap-8">
-          <div className="flex gap-2">
-            <div className="h-8 w-8 bg-gray-200 rounded-full"></div>
-            <p className="font-display text-xl font-semibold">Project 1</p>
-          </div>
-        </div>
+      <h2 className="font-display font-bold text-3xl mb-4 mt-10">Updates</h2>
+
+      <UpdateEntry />
+      <UpdateEntry />
+      
+      <div className="inline-flex gap-2 p-2 items-center bg-gray-200 rounded-lg">
+        <Image src={arrow} alt="Arrow pointing down" className="h-5 w-5" />
+        <p className="font-semibold">See more</p>
       </div>
     </div>
   );
