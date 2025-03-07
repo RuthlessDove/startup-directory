@@ -40,7 +40,8 @@ const Navbar = () => {
               Login
             </li>
           </a>
-          <li className="bg-custom-purple p-2 rounded-lg">Sign Up</li>
+          <a href="/signup">
+          <li className="bg-custom-purple p-2 rounded-lg">Sign Up</li></a>
         </ul>
       </div>
     </nav>
