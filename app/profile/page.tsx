@@ -23,7 +23,7 @@ const Profile = () => {
         <Image
           src={profilePic}
           alt="Blank Profile Picture"
-          className="rounded-full h-40 w-40 absolute left-0 bottom-0 translate-y-1/2 border-white border-4 ml-8"
+          className="rounded-full h-40 w-40 absolute left-8 bottom-0 translate-y-1/2 border-white border-4 shadow-md object-cover "
         />
       </div>
       <div className="ml-56 mt-5 flex justify-between">
@@ -43,7 +43,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="bg-gray-200 my-10 px-16 py-8 text-lg rounded-md">
+      <div className="bg-gray-200 my-10 px-16 py-8 text-lg rounded-md shadow-md">
         <h2 className="font-display text-2xl font-bold mb-2">
           🛗 Our Elevator Pitch
         </h2>
@@ -55,7 +55,7 @@ const Profile = () => {
       </div>
 
       <div>
-        <h2 className="font-display font-bold text-3xl">Pitch Details</h2>
+        <h2 className="font-display font-bold text-3xl">Pitch Breakdown</h2>
         <p className="text-lg mt-2">
           JSM Academy Masterclass revolutionizes developer education by offering
           hands-on, project-based learning for intermediate web developers. It
@@ -86,7 +86,7 @@ const Profile = () => {
 
       <UpdateEntry />
       <UpdateEntry />
-      
+
       <div className="inline-flex gap-2 p-2 items-center bg-gray-200 rounded-lg">
         <Image src={arrow} alt="Arrow pointing down" className="h-5 w-5" />
         <p className="font-semibold">See more</p>
