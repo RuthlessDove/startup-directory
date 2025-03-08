@@ -11,11 +11,11 @@ const Signup = () => {
   return (
     <div className="grid grid-cols-6 h-screen">
       {/* Left Section (Form) */}
-      <div className="col-span-3 mx-auto max-w-xl flex flex-col justify-center gap-6 relative mb-14 mt-12">
-        <div className="flex flex-col justify-center items-center gap-3 px-14 py-3">
+      <div className="col-span-3 mx-auto max-w-xl flex flex-col justify-center gap-6 relative mb-14 mt-8">
+        <div className="flex flex-col justify-center items-center gap-3 px-14 py-2">
           <Image src={logo} alt="Logo" className="h-12 w-12" />
           <span className="font-semibold text-4xl text-center font-display ">
-          Join the Community of Builders & Innovators
+            Join the Community of Builders & Innovators
             {/* Get Started Now */}
           </span>
         </div>
@@ -104,7 +104,7 @@ const Signup = () => {
           </div>
         </form>
 
-        <div className="flex items-center gap-4 w-full">
+        <div className="flex items-center gap-4 w-full -my-2">
           <hr className="flex-grow border-t border-gray-300" />
           <p className="text-gray-500">Or</p>
           <hr className="flex-grow border-t border-gray-300" />
@@ -126,13 +126,13 @@ const Signup = () => {
       </div>
 
       {/* Right Section (Image) */}
-      <div className="col-span-3 relative h-full">
+      <div className="col-span-3 relative h-full overflow-hidden">
         <Image
           src={lavenderBg}
           alt="Lavender Abstract Image"
           layout="fill"
           objectFit="cover"
-          className="rounded-l-3xl"
+          className="py-4 rounded-l-[3.5rem]"
         />
       </div>
     </div>
