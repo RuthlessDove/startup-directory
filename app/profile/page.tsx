@@ -12,7 +12,9 @@ import bg from "@/assets/images/blue-abstract-shapes.jpg";
 const Profile = () => {
   return (
     <div>
-      <Navbar />
+      <div className="border-b pb-7">
+        <Navbar />
+      </div>
       <div className="flex gap-10 mt-8 mb-8">
         <aside
           className="w-[25rem] flex p-3 shadow-[r] ml-10 rounded-lg"
@@ -37,8 +39,13 @@ const Profile = () => {
                 />
               </div>
             </div>
+            <div className="flex justify-end gap-2 mt-2">
+              <div className="h-7 w-7 bg-gray-200 rounded-lg"></div>
+              <div className="h-7 w-7 bg-gray-200 rounded-lg"></div>
+              <div className="h-7 w-7 bg-gray-200 rounded-lg"></div>
+            </div>
 
-            <div className="mt-14 font-display mb-2">
+            <div className="mt-6 font-display mb-2">
               <h3 className="text-3xl font-semibold">Caitlyn King</h3>
               <p className="opacity-[57%] text-xs font-semibold">
                 caitlyking@gmail.com
@@ -113,7 +120,7 @@ const Profile = () => {
               <h4 className="font-display font-semibold mb-2">Languages</h4>
               <div>
                 <div className="border inline-flex rounded-md p-1">
-                {/* Add flag here */}
+                  {/* Add flag here */}
                   <p className="text-sm font-semibold">Spanish</p>
                 </div>
               </div>
@@ -147,6 +154,7 @@ const Profile = () => {
             </div>
 
             <div className="flex justify-between items-center">
+              {/* Heart icon goes here */}
               <div className="h-7 w-7 bg-gray-200 rounded-full"></div>
               <div className="rounded-full bg-gray-200 inline-flex font-semibold py-1 px-2">
                 <p>See Details</p>

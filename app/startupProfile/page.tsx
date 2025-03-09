@@ -11,7 +11,7 @@ import background from "@/assets/images/blue-abstract.jpg";
 import profilePic from "@/assets/images/blank-profile-picture.webp";
 import arrow from "@/assets/icons/boomerang-arrow.svg";
 
-const Profile = () => {
+const startupProfile = () => {
   return (
     <div className="mt-7 mx-8">
       <div className="relative">
@@ -95,4 +95,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default startupProfile;

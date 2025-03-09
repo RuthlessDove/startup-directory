@@ -23,8 +23,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ["Inter", "serif"],
-        display: ["DM Sans", "serif"],
+        body: ["Plus Jakarta Sans", "sans-serif"],
+        display: ["DM Sans", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
