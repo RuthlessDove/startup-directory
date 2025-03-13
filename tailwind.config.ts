@@ -1,3 +1,4 @@
+import {heroui} from '@heroui/theme';
 import type { Config } from "tailwindcss";
 
 export default {
@@ -7,6 +8,7 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./sections/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@heroui/theme/dist/components/(button|modal|ripple|spinner).js"
   ],
   theme: {
     screens: {
@@ -99,5 +101,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"),heroui()],
 } satisfies Config;
