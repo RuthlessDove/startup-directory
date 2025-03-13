@@ -6,11 +6,10 @@ import Image from "next/image";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import stars from "@/assets/images/stars.svg";
 
-
 const Hero = () => {
   return (
     <div>
-        <div className="mt-6">
+      <div>
         <div className="text-white bg-[#0B0D14] rounded-lg py-20 relative overflow-hidden z-10">
           <h1 className="text-6xl font-medium font-display text-center ">
             Where ideas take flight: <br /> A hub for innovation{" "}
@@ -33,7 +32,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
