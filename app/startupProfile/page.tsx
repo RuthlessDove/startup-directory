@@ -70,14 +70,20 @@ const startupProfile = () => {
       <div className="mt-10">
         <h2 className="font-display font-bold text-3xl mb-4">People</h2>
         <div className="flex gap-8">
-          <div className="flex gap-2">
-            <div className="h-8 w-8 bg-gray-200 rounded-full"></div>
-            <p className="font-display text-xl font-semibold">@jdfof</p>
+          <div className="flex gap-4 items-center">
+            <div className="h-10 w-10 bg-gray-200 rounded-full"></div>
+            <div>
+              <p className="font-display text-xl font-semibold">@jdfof</p>
+              <p>Founder</p>
+            </div>
           </div>
 
-          <div className="flex gap-2">
-            <div className="h-8 w-8 bg-gray-200 rounded-full"></div>
-            <p className="font-display text-xl font-semibold">@jdfof</p>
+          <div className="flex gap-4 items-center">
+            <div className="h-10 w-10 bg-gray-200 rounded-full"></div>
+            <div>
+              <p className="font-display text-xl font-semibold">@jdfof</p>
+              <p>Founder</p>
+            </div>
           </div>
         </div>
       </div>
