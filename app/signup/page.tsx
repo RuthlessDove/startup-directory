@@ -20,7 +20,7 @@ const Signup = () => {
           </span>
         </div>
 
-        <form className="grid grid-cols-2 gap-4 font-semibold max-w-lg mx-auto">
+        <form className="grid grid-cols-2 gap-4 font-semibold max-w-xl mx-auto">
           {/* First Name & Last Name */}
           <div className="form-input">
             <label htmlFor="firstname">First Name</label>
@@ -110,8 +110,8 @@ const Signup = () => {
           <hr className="flex-grow border-t border-gray-300" />
         </div>
 
-        <div className="form-input-outline flex gap-2 items-center px-5">
-          <FcGoogle />
+        <div className="form-input-outline flex gap-2 items-center px-5 max-w-xl mx-auto font-semibold">
+          <FcGoogle size={20}/>
           Sign up with Google
         </div>
 

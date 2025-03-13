@@ -20,7 +20,7 @@
     @apply flex flex-col gap-2;
   }
   .form-input-outline {
-    @apply font-normal border border-custom-grey p-2 rounded-lg text-opacity-5 px-3;
+    @apply font-normal border border-custom-grey p-2 rounded-lg text-opacity-5 px-4;
   }
   .profile-tag {
     @apply bg-gray-200 px-4 scroll-py-0.5 rounded-sm;
