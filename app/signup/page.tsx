@@ -111,7 +111,7 @@ const Signup = () => {
         </div>
 
         <div className="form-input-outline flex gap-2 items-center px-5 max-w-xl mx-auto font-semibold">
-          <FcGoogle size={20}/>
+          <FcGoogle size={20} />
           Sign up with Google
         </div>
 

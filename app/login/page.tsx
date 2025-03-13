@@ -64,8 +64,8 @@ const Login = () => {
           <hr className="flex-grow border-t border-gray-300" />
         </div>
 
-        <div className="form-input-outline flex gap-2 items-center px-5">
-          <FcGoogle />
+        <div className="form-input-outline flex gap-2 items-center px-5 max-w-xl mx-auto font-semibold">
+          <FcGoogle size={20} />
           Sign in with Google
         </div>
 
